@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Boxer"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("_NETWORK"):WaitForChild("{EE0EF444-CA5B-4FAE-8CF9-B4FE2DA526C3}"):FireServer(unpack(args))
